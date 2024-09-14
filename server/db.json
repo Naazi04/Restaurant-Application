@@ -1,0 +1,73 @@
+{
+  "resto": [
+    {
+      "id": "1",
+      "name": "khan's restaurant",
+      "address": "Hyderabad,Telangana",
+      "mobile": 9876543210,
+      "email": "khanscuisine@resto.com"
+    },
+    {
+      "id": "2",
+      "name": "shaik's restaurant",
+      "address": "Vijayawada, Andhra Pradesh",
+      "mobile": 9012345678,
+      "email": "shaikscuisine@resto.com"
+    },
+    {
+      "id": "d687",
+      "name": "nisha",
+      "address": "vij",
+      "email": "abc@gmail.com"
+    },
+    {
+      "id": "a5b5",
+      "name": "nisha",
+      "address": "vij",
+      "email": "abc@gmail.com"
+    },
+    {
+      "id": "4fe1",
+      "name": "naaz",
+      "address": "hyderabad",
+      "mobile": "9876543210",
+      "email": "absn@khan.com"
+    },
+    {
+      "id": "e6cb",
+      "name": "charitha",
+      "address": "chittoor",
+      "mobile": "9120365478",
+      "email": "chari@cht.com"
+    },
+    {
+      "id": "83ef",
+      "name": "nikki",
+      "address": "chennai",
+      "mobile": "8745632109",
+      "email": "nikki@shk.in"
+    },
+    {
+      "id": "5c02",
+      "name": "siddu",
+      "address": "banglore",
+      "mobile": "6578941230",
+      "email": "sids@skm.in"
+    },
+    {
+      "id": "203f",
+      "name": "sids",
+      "address": "karnataka",
+      "mobile": "",
+      "email": "sids@skm.in"
+    }
+  ],
+  "users": [
+    {
+      "id": "5517",
+      "name": "naziya",
+      "password": "asdfghjkl",
+      "email": "naaz@gmail.com"
+    }
+  ]
+}
