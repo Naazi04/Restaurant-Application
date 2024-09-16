@@ -11,7 +11,7 @@
 
 <form [formGroup]="addRestaurant" (ngSubmit)="createResto()">
     <div class="mb-3 form-group">
-      <label>Name</label>
+      <label>Name<span class="form-required" id="astri"> *</span></label>
       <input type="text" class="form-control" placeholder="Enter Name" formControlName="name">
     </div>
     <div class="mb-3 form-group">
@@ -19,7 +19,7 @@
         <input type="text" class="form-control" placeholder="Enter Address" formControlName="address">
     </div>
     <div class="mb-3 form-group">
-        <label>Email</label>
+        <label>Email<span class="form-required" id="astri"> *</span></label>
         <input type="email" class="form-control" placeholder="Enter Mail" formControlName="email">
     </div>
       

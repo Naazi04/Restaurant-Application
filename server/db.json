@@ -48,18 +48,10 @@
       "email": "nikki@shk.in"
     },
     {
-      "id": "5c02",
-      "name": "siddu",
-      "address": "banglore",
-      "mobile": "6578941230",
-      "email": "sids@skm.in"
-    },
-    {
-      "id": "203f",
       "name": "sids",
       "address": "karnataka",
-      "mobile": "",
-      "email": "sids@skm.in"
+      "email": "sids@skm.in",
+      "id": "b78f"
     }
   ],
   "users": [

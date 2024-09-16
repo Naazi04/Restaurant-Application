@@ -1,26 +1,23 @@
-
-    <div class="jumbotron">
-        <h3 class="text-center">Register User For Restaurant App</h3>
-    </div>
-    <!-- <div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
-      <strong>Success !</strong> Your data added successfully
-      <button (click)="closeAlert()" type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    </div> -->
+<div class="jumbotron">
+  <h3 class="text-center">Register User For Restaurant App</h3>
+</div>
 
 <form [formGroup]="createUser" (ngSubmit)="regUser()">
-    <div class="mb-3 form-group">
-      <label>Username</label>
-      <input type="text" class="form-control" placeholder="Enter Name" formControlName="name">
-    </div>    
-      <div class="mb-3 form-group">
-        <label>Email</label>
-        <input type="email" class="form-control" placeholder="Enter Mail" formControlName="email">
-      </div>
-      <div class="mb-3 form-group">
-        <label>Password</label>
-        <input type="password" class="form-control" placeholder="Enter Password" formControlName="password">
-      </div>
-      
-      <button type="submit" class="btn btn-primary">Register</button>
-    
+<div class="mb-3 form-group">
+<label>Username</label>
+<input type="text" class="form-control" placeholder="Enter Name" formControlName="name">
+</div>    
+<div class="mb-3 form-group">
+  <label>Email</label>
+  <input type="email" class="form-control" placeholder="Enter Mail" formControlName="email">
+</div>
+<div class="mb-3 form-group">
+  <label>Password</label>
+  <input type="password" class="form-control" placeholder="Enter Password" formControlName="password">
+</div>
+
+<button type="submit" class="btn btn-primary">Register</button>
+
 </form>
+
+<script src="https://cdn02.jotfor.ms/static/prototype.forms.js?v=3.3.56827" type="text/javascript"></script> 
