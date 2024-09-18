@@ -12,7 +12,7 @@ export class ListRestaurantComponent implements OnInit {
   public collection:any= [];
   constructor(private commonService:CommonService) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
     this.commonService.getRestoList().subscribe((result)=>{
       this.collection= result;
       console.log(this.collection)

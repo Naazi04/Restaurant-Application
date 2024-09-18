@@ -1,20 +1,67 @@
 <div class="jumbotron">
   <h3 class="text-center">Register User For Restaurant App</h3>
 </div>
+<div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
+  <strong>Success !</strong> Your data registered successfully.
+  <button (click)="closeAlert()" type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
 
-<form [formGroup]="createUser" (ngSubmit)="regUser()">
+<form [formGroup]="newReg" (ngSubmit)="regUser()">
 <div class="mb-3 form-group">
-<label>Username</label>
+<label>Username<span class="form-required" id="astri"> *</span></label>
 <input type="text" class="form-control" placeholder="Enter Name" formControlName="name">
 </div>    
 <div class="mb-3 form-group">
-  <label>Email</label>
+  <label>Email<span class="form-required" id="astri"> *</span></label>
   <input type="email" class="form-control" placeholder="Enter Mail" formControlName="email">
 </div>
 <div class="mb-3 form-group">
-  <label>Password</label>
-  <input type="password" class="form-control" placeholder="Enter Password" formControlName="password">
+  <label>Address</label>
+  <input type="textarea" class="form-control" placeholder="Enter your full Address" formControlName="address">
 </div>
+<div class="mb-3 form-group">
+  <label>Mobile Number<span class="form-required" id="astri"> *</span></label>
+  <input type="tel" class="form-control" placeholder="Enter Number" formControlName="number">
+</div>
+<div class="mb-3 form-group">  
+  <label>Password<span class="form-required" id="astri"> *</span></label>
+  <input type="password" class="form-control" placeholder="Create Password" formControlName="password">
+</div>
+
+<div class="mb-3 form-group">
+  <label>Currently Working anywhere</label>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" formControlName="work" value="Yes" id="workYes">
+    <label class="form-check-label" for="workYes">
+      Yes
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" formControlName="work" value="No" id="workNo">
+    <label class="form-check-label" for="workNo">
+      No
+    </label>
+  </div>
+</div>
+<div class="mb-3 form-group">
+  <label>Available to work in the shifts?</label>
+  <div class="form-check form-switch">
+    <input class="form-check-input" type="checkbox" formControlName="dayShift" id="dayShift">
+    <label class="form-check-label" for="dayShift">Day</label>
+  </div>
+  <div class="form-check form-switch">
+    <input class="form-check-input" type="checkbox" formControlName="nightShift" id="nightShift">
+    <label class="form-check-label" for="nightShift">Night</label>
+  </div>
+</div>
+
+  <div class="mb-3 form-group">
+    <label for="formFile" class="form-label">Upload Resume<span class="form-required" id="astri"> *</span></label>
+    <input class="form-control" type="file" id="formFile">
+  </div>
+
 
 <button type="submit" class="btn btn-primary">Register</button>
 

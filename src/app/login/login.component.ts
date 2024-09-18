@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonService } from '../common.service';
 import { Router } from '@angular/router';
-import { invalid } from '@angular/compiler/src/render3/view/util';
 
 
 @Component({
@@ -20,7 +19,7 @@ export class LoginComponent implements OnInit {
   }
   login(){
     if(this.email == "admin@gmail.com" && this.password == "Admin@123"){
-      this.router.navigate(["../list"]);
+      this.router.navigate(["../reg-list"]);
     }
     else if(this.email == null || this.password == null){
       alert("Please enter all details");

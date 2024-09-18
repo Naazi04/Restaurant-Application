@@ -15,16 +15,16 @@
       "email": "shaikscuisine@resto.com"
     },
     {
-      "id": "d687",
       "name": "nisha",
-      "address": "vij",
-      "email": "abc@gmail.com"
+      "address": "Hyderabad",
+      "email": "abc@gmail.com",
+      "id": "d687"
     },
     {
-      "id": "a5b5",
       "name": "nisha",
-      "address": "vij",
-      "email": "abc@gmail.com"
+      "address": "vijayawada",
+      "email": "abc@resto.com",
+      "id": "a5b5"
     },
     {
       "id": "4fe1",
@@ -52,6 +52,47 @@
       "address": "karnataka",
       "email": "sids@skm.in",
       "id": "b78f"
+    },
+    {
+      "id": "6ee7",
+      "name": "asnn",
+      "address": "Hyderabad",
+      "email": "asnn68@gmail.com"
+    },
+    {
+      "id": "80ac",
+      "name": "sids",
+      "address": "karnataka",
+      "email": "sids@skm.in"
+    },
+    {
+      "id": "6399",
+      "name": "naaz",
+      "email": "naaz@gmail.com",
+      "address": "vijayawada",
+      "number": "9876543210",
+      "password": "asdf",
+      "work": "",
+      "shift": "",
+      "resume": ""
+    },
+    {
+      "id": "cfc8",
+      "name": "sids",
+      "address": "karnataka",
+      "email": "sids@skm.in"
+    },
+    {
+      "name": "naazi",
+      "address": "sikkim",
+      "email": "itsme@gmail.com",
+      "id": "e966"
+    },
+    {
+      "id": "be28",
+      "name": "akki",
+      "address": "chennai",
+      "email": "akki@star.com"
     }
   ],
   "users": [
@@ -60,6 +101,151 @@
       "name": "naziya",
       "password": "asdfghjkl",
       "email": "naaz@gmail.com"
+    },
+    {
+      "id": "ebad",
+      "name": "Naziya",
+      "password": "asdf",
+      "email": "asnn68@gmail.com"
+    },
+    {
+      "id": "df87",
+      "name": "Naziya",
+      "password": "asdf",
+      "email": "asnn68@gmail.com"
+    },
+    {
+      "id": "6011",
+      "name": "",
+      "password": "",
+      "email": ""
+    },
+    {
+      "id": "a484",
+      "name": "naaz",
+      "password": "zxcv",
+      "email": "naaz@gmail.com"
+    },
+    {
+      "id": "32c2",
+      "name": "naaz",
+      "password": "zxcv",
+      "email": "naaz@gmail.com"
+    }
+  ],
+  "registers": [
+    {
+      "id": "1d66",
+      "name": "",
+      "email": "",
+      "address": "",
+      "number": "",
+      "password": "",
+      "work": "",
+      "shift": "",
+      "resume": ""
+    },
+    {
+      "id": "b819",
+      "name": "charitha",
+      "email": "chari@gmail.com",
+      "address": "vijayawada",
+      "number": "9012345678",
+      "password": "1234",
+      "work": "",
+      "shift": "",
+      "resume": ""
+    },
+    {
+      "id": "9a49",
+      "name": "",
+      "email": "",
+      "address": "",
+      "number": "",
+      "password": "",
+      "work": "No",
+      "shift": [],
+      "resume": ""
+    },
+    {
+      "id": "3111",
+      "name": null,
+      "email": null,
+      "address": null,
+      "number": null,
+      "password": null,
+      "work": null,
+      "shift": null,
+      "resume": null
+    },
+    {
+      "id": "18e0",
+      "name": "",
+      "email": "",
+      "address": "",
+      "number": "",
+      "password": "",
+      "work": "'No','Yes'",
+      "shift": [],
+      "resume": ""
+    },
+    {
+      "id": "5db5",
+      "name": "",
+      "email": "",
+      "address": "",
+      "number": "",
+      "password": "",
+      "work": "Yes",
+      "shift": [],
+      "resume": ""
+    },
+    {
+      "id": "6e16",
+      "name": "",
+      "email": "",
+      "address": "",
+      "number": "",
+      "password": "",
+      "work": "No",
+      "shift": [],
+      "resume": ""
+    },
+    {
+      "id": "3d01",
+      "name": "",
+      "email": "",
+      "address": "",
+      "number": "",
+      "password": "",
+      "work": "No",
+      "dayShift": true,
+      "nightShift": false,
+      "resume": ""
+    },
+    {
+      "id": "cd2c",
+      "name": "",
+      "email": "",
+      "address": "",
+      "number": "",
+      "password": "",
+      "work": "No",
+      "dayShift": false,
+      "nightShift": false,
+      "resume": ""
+    },
+    {
+      "id": "1abd",
+      "name": "Akkineni",
+      "email": "akki@gmail.com",
+      "address": "",
+      "number": "9638527410",
+      "password": "asdf",
+      "work": "No",
+      "dayShift": true,
+      "nightShift": false,
+      "resume": ""
     }
   ]
 }

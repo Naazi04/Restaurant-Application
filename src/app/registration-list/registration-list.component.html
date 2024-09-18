@@ -1,0 +1,26 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Address</th>
+            <th scope="col">Mobile Number</th>
+            <th scope="col">Password</th>
+            <th scope="col">Working Anywhere</th>
+            <th scope="col">Available shifts</th>
+            <th scope="col">Resume</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let resto of collection">
+            <td>{{resto.name}}</td>
+            <td>{{resto.email}}</td>            
+            <td>{{resto.address}}</td>
+            <td>{{resto.number}}</td>
+            <td>{{resto.password}}</td>
+            <td>{{resto.work}}</td>
+            <td>{{ resto.dayShift ? 'Day' : resto.nightShift ? 'Night' : 'No Shift' }}</td>
+            <td>{{resto.resume}}</td>
+        </tr>
+    </tbody>
+</table>

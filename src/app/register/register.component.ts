@@ -9,20 +9,38 @@ import { CommonService } from '../common.service';
 })
 export class RegisterComponent implements OnInit {
   alert:boolean = false;
-  createUser = new FormGroup({
+  newReg = new FormGroup({
     name: new FormControl(''),
+    email: new FormControl(''),
+    address: new FormControl(''),
+    number: new FormControl(''),    
     password: new FormControl(''),
-    email: new FormControl('')
+    work: new FormControl('No'),
+    dayShift: new FormControl(false), 
+    nightShift: new FormControl(false), 
+    resume: new FormControl('')
   })
 
-  constructor(private resto:CommonService) { }
+  constructor(private registers:CommonService) { }
 
   ngOnInit(): void {
   }
-  regUser(){
-    console.log(this.createUser.value);
-    this.resto.createUser(this.createUser.value).subscribe((result)=>{
-      console.log(result,"data created successfully")
-    })
+  
+  regUser() {
+    this.registers.addReg(this.newReg.value).subscribe({
+      next: (result) => {
+        this.alert = true;
+        this.newReg.reset();
+        console.log(result, "Registered successfully");
+      },
+      error: (err) => {
+        console.error("Registration failed", err);
+      }
+    });
   }
+  
+  closeAlert(){
+    this.alert = false;
+  }
+
 }

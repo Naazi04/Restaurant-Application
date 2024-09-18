@@ -11,6 +11,7 @@ import { UpdateRestaurantComponent } from './update-restaurant/update-restaurant
 import {HttpClientModule} from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
+import { RegistrationListComponent } from './registration-list/registration-list.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HomeComponent } from './home/home.component';
     LoginComponent,
     RegisterComponent,
     UpdateRestaurantComponent,
-    HomeComponent
+    HomeComponent,
+    RegistrationListComponent
   ],
   imports: [
     BrowserModule,

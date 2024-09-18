@@ -34,6 +34,7 @@ export class UpdateRestaurantComponent implements OnInit {
     this.resto.updateResto(id, this.editRestaurant.value).subscribe((result) => {
       console.log(result, "data updated successfully!");
       this.alert = true;
+      this.editRestaurant.reset({});
     });
   }
 
