@@ -10,7 +10,10 @@ import { CommonService } from '../common.service';
 export class ListRestaurantComponent implements OnInit {
   alert:boolean= false;
   public collection:any= [];
+  totalLength : any;
+  page : number = 1;
   constructor(private commonService:CommonService) { }
+
 
   ngOnInit() {
     this.commonService.getRestoList().subscribe((result)=>{

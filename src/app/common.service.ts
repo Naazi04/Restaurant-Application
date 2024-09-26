@@ -10,8 +10,8 @@ export class CommonService {
   regliURL = "http://localhost:3000/registers";
 
   constructor(private _http:HttpClient) { }
-  getRestoList(){
-    return this._http.get(this.URL);
+  getRestoList(): Observable<any[]>{
+    return this._http.get<any[]>(this.URL);
   }
   addResto(data){
     return this._http.post(this.URL, data);
