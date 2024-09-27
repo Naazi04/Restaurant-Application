@@ -1,0 +1,9 @@
+.pagination{
+    padding: 20px 16px;
+    float:inline-start;
+    font-size: 16px;
+}
+.pagination::ng-deep .ngx-pagination .current{
+    background-color: blue;
+    border-radius: 50%;
+}
